@@ -7,7 +7,15 @@
       "RelativeMoniker": "D:0:0:{8C77A881-D9AB-4CE5-9404-2359FA1ED61A}|projeto-wf\\projeto-wf.csproj|solutionrelative:projeto-wf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C77A881-D9AB-4CE5-9404-2359FA1ED61A}|projeto-wf\\projeto-wf.csproj|c:\\users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\adicionar usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8C77A881-D9AB-4CE5-9404-2359FA1ED61A}|projeto-wf\\projeto-wf.csproj|c:\\users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\testar conex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C77A881-D9AB-4CE5-9404-2359FA1ED61A}|projeto-wf\\projeto-wf.csproj|solutionrelative:projeto-wf\\testar conex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C77A881-D9AB-4CE5-9404-2359FA1ED61A}|projeto-wf\\projeto-wf.csproj|c:\\users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\adicionar usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C77A881-D9AB-4CE5-9404-2359FA1ED61A}|projeto-wf\\projeto-wf.csproj|solutionrelative:projeto-wf\\adicionar usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C77A881-D9AB-4CE5-9404-2359FA1ED61A}|projeto-wf\\projeto-wf.csproj|C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\adicionar usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8C77A881-D9AB-4CE5-9404-2359FA1ED61A}|projeto-wf\\projeto-wf.csproj|solutionrelative:projeto-wf\\adicionar usu\u00E1rio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,19 +42,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Adicionar Usu\u00E1rio.cs [Projeto]",
+              "DocumentIndex": 2,
+              "Title": "Adicionar Usu\u00E1rio.cs",
               "DocumentMoniker": "C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\Adicionar Usu\u00E1rio.cs",
               "RelativeDocumentMoniker": "projeto-wf\\Adicionar Usu\u00E1rio.cs",
-              "ToolTip": "C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\Adicionar Usu\u00E1rio.cs [Projeto]",
-              "RelativeToolTip": "projeto-wf\\Adicionar Usu\u00E1rio.cs [Projeto]",
+              "ToolTip": "C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\Adicionar Usu\u00E1rio.cs",
+              "RelativeToolTip": "projeto-wf\\Adicionar Usu\u00E1rio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T18:10:41.099Z",
+              "WhenOpened": "2026-01-23T18:36:56.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Testar Conex\u00E3o.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\Testar Conex\u00E3o.cs",
+              "RelativeDocumentMoniker": "projeto-wf\\Testar Conex\u00E3o.cs",
+              "ToolTip": "C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\Testar Conex\u00E3o.cs [Projeto]",
+              "RelativeToolTip": "projeto-wf\\Testar Conex\u00E3o.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T18:27:54.572Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\Form1.cs",
               "RelativeDocumentMoniker": "projeto-wf\\Form1.cs",
@@ -59,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\Program.cs",
               "RelativeDocumentMoniker": "projeto-wf\\Program.cs",
@@ -67,8 +88,7 @@
               "RelativeToolTip": "projeto-wf\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T13:19:04.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T13:19:04.731Z"
             },
             {
               "$type": "Document",
@@ -84,11 +104,23 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Adicionar Usu\u00E1rio.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\Adicionar Usu\u00E1rio.cs",
+              "RelativeDocumentMoniker": "projeto-wf\\Adicionar Usu\u00E1rio.cs",
+              "ToolTip": "C:\\Users\\20251038060010\\source\\repos\\forms-serialization\\projeto-wf\\projeto-wf\\Adicionar Usu\u00E1rio.cs [Projeto]",
+              "RelativeToolTip": "projeto-wf\\Adicionar Usu\u00E1rio.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T18:10:41.099Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             lb_usuario = new Label();
-            textBox1 = new TextBox();
+            tb_usuario = new TextBox();
             lb_ip = new Label();
             lb_senha = new Label();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            tb_senha = new TextBox();
+            tb_ip = new TextBox();
             btn_adicionar_usuario = new Button();
             SuspendLayout();
             // 
@@ -47,12 +47,12 @@
             lb_usuario.TabIndex = 0;
             lb_usuario.Text = "Usuário";
             // 
-            // textBox1
+            // tb_usuario
             // 
-            textBox1.Location = new Point(146, 58);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(206, 23);
-            textBox1.TabIndex = 1;
+            tb_usuario.Location = new Point(146, 58);
+            tb_usuario.Name = "tb_usuario";
+            tb_usuario.Size = new Size(206, 23);
+            tb_usuario.TabIndex = 1;
             // 
             // lb_ip
             // 
@@ -74,19 +74,22 @@
             lb_senha.TabIndex = 3;
             lb_senha.Text = "Senha";
             // 
-            // textBox2
+            // tb_senha
             // 
-            textBox2.Location = new Point(146, 103);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(206, 23);
-            textBox2.TabIndex = 4;
+            tb_senha.Location = new Point(146, 103);
+            tb_senha.Name = "tb_senha";
+            tb_senha.Size = new Size(206, 23);
+            tb_senha.TabIndex = 4;
+            tb_senha.UseSystemPasswordChar = true;
+            tb_senha.WordWrap = false;
+            tb_senha.TextChanged += textBox2_TextChanged;
             // 
-            // textBox3
+            // tb_ip
             // 
-            textBox3.Location = new Point(146, 142);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(206, 23);
-            textBox3.TabIndex = 5;
+            tb_ip.Location = new Point(146, 142);
+            tb_ip.Name = "tb_ip";
+            tb_ip.Size = new Size(206, 23);
+            tb_ip.TabIndex = 5;
             // 
             // btn_adicionar_usuario
             // 
@@ -103,11 +106,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(393, 284);
             Controls.Add(btn_adicionar_usuario);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
+            Controls.Add(tb_ip);
+            Controls.Add(tb_senha);
             Controls.Add(lb_senha);
             Controls.Add(lb_ip);
-            Controls.Add(textBox1);
+            Controls.Add(tb_usuario);
             Controls.Add(lb_usuario);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MinimizeBox = false;
@@ -121,11 +124,11 @@
         #endregion
 
         private Label lb_usuario;
-        private TextBox textBox1;
+        private TextBox tb_usuario;
         private Label lb_ip;
         private Label lb_senha;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox tb_senha;
+        private TextBox tb_ip;
         private Button btn_adicionar_usuario;
     }
 }
