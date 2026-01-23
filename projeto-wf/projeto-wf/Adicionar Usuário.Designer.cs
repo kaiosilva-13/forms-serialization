@@ -28,21 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
+            lb_usuario = new Label();
+            textBox1 = new TextBox();
+            lb_ip = new Label();
+            lb_senha = new Label();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            btn_adicionar_usuario = new Button();
             SuspendLayout();
+            // 
+            // lb_usuario
+            // 
+            lb_usuario.AutoSize = true;
+            lb_usuario.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_usuario.Location = new Point(44, 60);
+            lb_usuario.Name = "lb_usuario";
+            lb_usuario.Size = new Size(64, 21);
+            lb_usuario.TabIndex = 0;
+            lb_usuario.Text = "Usuário";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(146, 58);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(206, 23);
+            textBox1.TabIndex = 1;
+            // 
+            // lb_ip
+            // 
+            lb_ip.AutoSize = true;
+            lb_ip.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_ip.Location = new Point(44, 144);
+            lb_ip.Name = "lb_ip";
+            lb_ip.Size = new Size(23, 21);
+            lb_ip.TabIndex = 2;
+            lb_ip.Text = "IP";
+            // 
+            // lb_senha
+            // 
+            lb_senha.AutoSize = true;
+            lb_senha.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_senha.Location = new Point(44, 101);
+            lb_senha.Name = "lb_senha";
+            lb_senha.Size = new Size(53, 21);
+            lb_senha.TabIndex = 3;
+            lb_senha.Text = "Senha";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(146, 103);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(206, 23);
+            textBox2.TabIndex = 4;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(146, 142);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(206, 23);
+            textBox3.TabIndex = 5;
+            // 
+            // btn_adicionar_usuario
+            // 
+            btn_adicionar_usuario.Location = new Point(44, 199);
+            btn_adicionar_usuario.Name = "btn_adicionar_usuario";
+            btn_adicionar_usuario.Size = new Size(308, 23);
+            btn_adicionar_usuario.TabIndex = 6;
+            btn_adicionar_usuario.Text = "Adicionar Usuário";
+            btn_adicionar_usuario.UseVisualStyleBackColor = true;
             // 
             // Adicionar_Usuário
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(393, 284);
+            Controls.Add(btn_adicionar_usuario);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(lb_senha);
+            Controls.Add(lb_ip);
+            Controls.Add(textBox1);
+            Controls.Add(lb_usuario);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MinimizeBox = false;
             Name = "Adicionar_Usuário";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Adicionar Usuario";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lb_usuario;
+        private TextBox textBox1;
+        private Label lb_ip;
+        private Label lb_senha;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private Button btn_adicionar_usuario;
     }
 }
