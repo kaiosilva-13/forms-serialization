@@ -58,24 +58,28 @@
             adicionarUsuárioToolStripMenuItem.Name = "adicionarUsuárioToolStripMenuItem";
             adicionarUsuárioToolStripMenuItem.Size = new Size(180, 22);
             adicionarUsuárioToolStripMenuItem.Text = "&Adicionar Usuário";
+            adicionarUsuárioToolStripMenuItem.Click += adicionarUsuárioToolStripMenuItem_Click;
             // 
             // editarUsuárioToolStripMenuItem
             // 
             editarUsuárioToolStripMenuItem.Name = "editarUsuárioToolStripMenuItem";
             editarUsuárioToolStripMenuItem.Size = new Size(180, 22);
             editarUsuárioToolStripMenuItem.Text = "&Editar Usuário";
+            editarUsuárioToolStripMenuItem.Click += editarUsuárioToolStripMenuItem_Click;
             // 
             // removerUsuárioToolStripMenuItem
             // 
             removerUsuárioToolStripMenuItem.Name = "removerUsuárioToolStripMenuItem";
             removerUsuárioToolStripMenuItem.Size = new Size(180, 22);
             removerUsuárioToolStripMenuItem.Text = "&Remover Usuário";
+            removerUsuárioToolStripMenuItem.Click += removerUsuárioToolStripMenuItem_Click;
             // 
             // testarConexãoToolStripMenuItem
             // 
             testarConexãoToolStripMenuItem.Name = "testarConexãoToolStripMenuItem";
             testarConexãoToolStripMenuItem.Size = new Size(180, 22);
             testarConexãoToolStripMenuItem.Text = "&Testar conexão";
+            testarConexãoToolStripMenuItem.Click += testarConexãoToolStripMenuItem_Click;
             // 
             // Form1
             // 
