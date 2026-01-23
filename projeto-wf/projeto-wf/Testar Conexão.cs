@@ -16,5 +16,10 @@ namespace projeto_wf
         {
             InitializeComponent();
         }
+
+        private void Testar_Conexão_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -42,15 +42,16 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { opçõesToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(559, 24);
+            menuStrip1.Size = new Size(559, 25);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // opçõesToolStripMenuItem
             // 
             opçõesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { adicionarUsuárioToolStripMenuItem, editarUsuárioToolStripMenuItem, removerUsuárioToolStripMenuItem, testarConexãoToolStripMenuItem });
+            opçõesToolStripMenuItem.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
-            opçõesToolStripMenuItem.Size = new Size(59, 20);
+            opçõesToolStripMenuItem.Size = new Size(65, 21);
             opçõesToolStripMenuItem.Text = "Opções";
             // 
             // adicionarUsuárioToolStripMenuItem

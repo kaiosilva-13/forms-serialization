@@ -95,6 +95,7 @@
             Name = "Testar_Conexão";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Testar_Conexão";
+            Load += Testar_Conexão_Load;
             ResumeLayout(false);
             PerformLayout();
         }
