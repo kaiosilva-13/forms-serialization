@@ -35,6 +35,7 @@
             tb_senha = new TextBox();
             tb_ip = new TextBox();
             btn_adicionar_usuario = new Button();
+            btn_remover_usuario = new Button();
             SuspendLayout();
             // 
             // lb_usuario
@@ -93,18 +94,28 @@
             // 
             // btn_adicionar_usuario
             // 
-            btn_adicionar_usuario.Location = new Point(44, 199);
+            btn_adicionar_usuario.Location = new Point(44, 189);
             btn_adicionar_usuario.Name = "btn_adicionar_usuario";
             btn_adicionar_usuario.Size = new Size(308, 23);
             btn_adicionar_usuario.TabIndex = 6;
             btn_adicionar_usuario.Text = "Adicionar Usuário";
             btn_adicionar_usuario.UseVisualStyleBackColor = true;
             // 
+            // btn_remover_usuario
+            // 
+            btn_remover_usuario.Location = new Point(44, 229);
+            btn_remover_usuario.Name = "btn_remover_usuario";
+            btn_remover_usuario.Size = new Size(308, 23);
+            btn_remover_usuario.TabIndex = 7;
+            btn_remover_usuario.Text = "Remover Usuário";
+            btn_remover_usuario.UseVisualStyleBackColor = true;
+            // 
             // Adicionar_Usuário
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(393, 284);
+            Controls.Add(btn_remover_usuario);
             Controls.Add(btn_adicionar_usuario);
             Controls.Add(tb_ip);
             Controls.Add(tb_senha);
@@ -131,5 +142,6 @@
         private TextBox tb_senha;
         private TextBox tb_ip;
         private Button btn_adicionar_usuario;
+        private Button btn_remover_usuario;
     }
 }
