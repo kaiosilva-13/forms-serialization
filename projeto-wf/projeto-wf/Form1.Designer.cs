@@ -80,6 +80,7 @@
             ClientSize = new Size(580, 393);
             Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
             MaximizeBox = false;
             Name = "Form1";

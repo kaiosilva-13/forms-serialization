@@ -15,6 +15,7 @@ namespace projeto_wf
         public Adicionar_Usuário()
         {
             InitializeComponent();
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
