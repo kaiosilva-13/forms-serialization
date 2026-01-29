@@ -32,8 +32,8 @@
             opçõesToolStripMenuItem = new ToolStripMenuItem();
             adicionarUsuárioToolStripMenuItem = new ToolStripMenuItem();
             testarConexãoToolStripMenuItem = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             listarUsuáriosToolStripMenuItem = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -68,17 +68,18 @@
             testarConexãoToolStripMenuItem.Text = "&Testar conexão";
             testarConexãoToolStripMenuItem.Click += testarConexãoToolStripMenuItem_Click;
             // 
-            // sairToolStripMenuItem
-            // 
-            sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            sairToolStripMenuItem.Size = new Size(182, 22);
-            sairToolStripMenuItem.Text = "&Sair";
-            // 
             // listarUsuáriosToolStripMenuItem
             // 
             listarUsuáriosToolStripMenuItem.Name = "listarUsuáriosToolStripMenuItem";
             listarUsuáriosToolStripMenuItem.Size = new Size(182, 22);
             listarUsuáriosToolStripMenuItem.Text = "&Listar usuários";
+            listarUsuáriosToolStripMenuItem.Click += listarUsuáriosToolStripMenuItem_Click;
+            // 
+            // sairToolStripMenuItem
+            // 
+            sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            sairToolStripMenuItem.Size = new Size(182, 22);
+            sairToolStripMenuItem.Text = "&Sair";
             // 
             // Form1
             // 
