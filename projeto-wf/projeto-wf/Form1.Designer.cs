@@ -34,6 +34,7 @@
             editarUsuárioToolStripMenuItem = new ToolStripMenuItem();
             removerUsuárioToolStripMenuItem = new ToolStripMenuItem();
             testarConexãoToolStripMenuItem = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             // 
             // opçõesToolStripMenuItem
             // 
-            opçõesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { adicionarUsuárioToolStripMenuItem, editarUsuárioToolStripMenuItem, removerUsuárioToolStripMenuItem, testarConexãoToolStripMenuItem });
+            opçõesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { adicionarUsuárioToolStripMenuItem, editarUsuárioToolStripMenuItem, removerUsuárioToolStripMenuItem, testarConexãoToolStripMenuItem, sairToolStripMenuItem });
             opçõesToolStripMenuItem.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
             opçõesToolStripMenuItem.Size = new Size(65, 21);
@@ -82,6 +83,12 @@
             testarConexãoToolStripMenuItem.Text = "&Testar conexão";
             testarConexãoToolStripMenuItem.Click += testarConexãoToolStripMenuItem_Click;
             // 
+            // sairToolStripMenuItem
+            // 
+            sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            sairToolStripMenuItem.Size = new Size(180, 22);
+            sairToolStripMenuItem.Text = "&Sair";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -93,7 +100,7 @@
             MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Gerenciados de Usuários de Rede";
+            Text = "Gerenciador de Usuários de Rede";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -108,5 +115,6 @@
         private ToolStripMenuItem editarUsuárioToolStripMenuItem;
         private ToolStripMenuItem removerUsuárioToolStripMenuItem;
         private ToolStripMenuItem testarConexãoToolStripMenuItem;
+        private ToolStripMenuItem sairToolStripMenuItem;
     }
 }
