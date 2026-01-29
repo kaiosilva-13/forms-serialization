@@ -9,12 +9,36 @@ namespace projeto_wf
 
         private void adicionarUsuárioToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (Application.OpenForms.Count > 1)
+            {
+                var result = MessageBox.Show("Uma janela está aberta no momento, para abrir uma outra,feche a janela atual.Deseja fechar a janela atual e abrir uma nova janela?", "Erro ao abrir janela", MessageBoxButtons.YesNo, MessageBoxIcon.Stop);
+                if (result == DialogResult.Yes) {
+                    this.ActiveMdiChild.Close();
+                }
+                else
+                {
+                    return;
+                }
+                    
+            }
             Adicionar_Usuário adicionar_usuario = new Adicionar_Usuário();
             adicionar_usuario.MdiParent = this;
             adicionar_usuario.Show();
         }
         private void testarConexãoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (Application.OpenForms.Count > 1)
+            {
+                var result = MessageBox.Show("Uma janela está aberta no momento, para abrir uma outra,feche a janela atual.Deseja fechar a janela atual e abrir uma nova janela?", "Erro ao abrir janela", MessageBoxButtons.YesNo, MessageBoxIcon.Stop);
+                if (result == DialogResult.Yes)
+                {
+                    this.ActiveMdiChild.Close();
+                }
+                else
+                {
+                    return;
+                }
+            }
             Testar_Conexão testar_conexao = new Testar_Conexão();
             testar_conexao.MdiParent = this;
             testar_conexao.Show();
