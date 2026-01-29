@@ -31,8 +31,6 @@
             menuStrip1 = new MenuStrip();
             opçõesToolStripMenuItem = new ToolStripMenuItem();
             adicionarUsuárioToolStripMenuItem = new ToolStripMenuItem();
-            editarUsuárioToolStripMenuItem = new ToolStripMenuItem();
-            removerUsuárioToolStripMenuItem = new ToolStripMenuItem();
             testarConexãoToolStripMenuItem = new ToolStripMenuItem();
             sairToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
@@ -49,7 +47,7 @@
             // 
             // opçõesToolStripMenuItem
             // 
-            opçõesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { adicionarUsuárioToolStripMenuItem, editarUsuárioToolStripMenuItem, removerUsuárioToolStripMenuItem, testarConexãoToolStripMenuItem, sairToolStripMenuItem });
+            opçõesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { adicionarUsuárioToolStripMenuItem, testarConexãoToolStripMenuItem, sairToolStripMenuItem });
             opçõesToolStripMenuItem.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
             opçõesToolStripMenuItem.Size = new Size(65, 21);
@@ -58,35 +56,21 @@
             // adicionarUsuárioToolStripMenuItem
             // 
             adicionarUsuárioToolStripMenuItem.Name = "adicionarUsuárioToolStripMenuItem";
-            adicionarUsuárioToolStripMenuItem.Size = new Size(180, 22);
-            adicionarUsuárioToolStripMenuItem.Text = "&Adicionar Usuário";
+            adicionarUsuárioToolStripMenuItem.Size = new Size(182, 22);
+            adicionarUsuárioToolStripMenuItem.Text = "&Cadastrar Usuário";
             adicionarUsuárioToolStripMenuItem.Click += adicionarUsuárioToolStripMenuItem_Click;
-            // 
-            // editarUsuárioToolStripMenuItem
-            // 
-            editarUsuárioToolStripMenuItem.Name = "editarUsuárioToolStripMenuItem";
-            editarUsuárioToolStripMenuItem.Size = new Size(180, 22);
-            editarUsuárioToolStripMenuItem.Text = "&Editar Usuário";
-            editarUsuárioToolStripMenuItem.Click += editarUsuárioToolStripMenuItem_Click;
-            // 
-            // removerUsuárioToolStripMenuItem
-            // 
-            removerUsuárioToolStripMenuItem.Name = "removerUsuárioToolStripMenuItem";
-            removerUsuárioToolStripMenuItem.Size = new Size(180, 22);
-            removerUsuárioToolStripMenuItem.Text = "&Remover Usuário";
-            removerUsuárioToolStripMenuItem.Click += removerUsuárioToolStripMenuItem_Click;
             // 
             // testarConexãoToolStripMenuItem
             // 
             testarConexãoToolStripMenuItem.Name = "testarConexãoToolStripMenuItem";
-            testarConexãoToolStripMenuItem.Size = new Size(180, 22);
+            testarConexãoToolStripMenuItem.Size = new Size(182, 22);
             testarConexãoToolStripMenuItem.Text = "&Testar conexão";
             testarConexãoToolStripMenuItem.Click += testarConexãoToolStripMenuItem_Click;
             // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            sairToolStripMenuItem.Size = new Size(180, 22);
+            sairToolStripMenuItem.Size = new Size(182, 22);
             sairToolStripMenuItem.Text = "&Sair";
             // 
             // Form1
@@ -101,6 +85,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gerenciador de Usuários de Rede";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -112,8 +97,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem opçõesToolStripMenuItem;
         private ToolStripMenuItem adicionarUsuárioToolStripMenuItem;
-        private ToolStripMenuItem editarUsuárioToolStripMenuItem;
-        private ToolStripMenuItem removerUsuárioToolStripMenuItem;
         private ToolStripMenuItem testarConexãoToolStripMenuItem;
         private ToolStripMenuItem sairToolStripMenuItem;
     }

@@ -21,5 +21,10 @@ namespace projeto_wf
         {
 
         }
+
+        private void Adicionar_Usuário_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

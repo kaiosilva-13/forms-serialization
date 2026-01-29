@@ -116,7 +116,8 @@
             MinimizeBox = false;
             Name = "Adicionar_Usuário";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Adicionar Usuario";
+            Text = "Cadastrar Usuario";
+            Load += Adicionar_Usuário_Load;
             ResumeLayout(false);
             PerformLayout();
         }
